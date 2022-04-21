@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Merriweather&family=Montserrat&family=Permanent+Marker&family=Sacramento&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    background-color: rgb(0, 0, 17);
+    color: #fff;
+    
+
+
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  
+}
+
+.banner{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.today, .time{
+    
+    font-size: 8rem;
+
+}
+
+.date{
+    font-size: 4rem;
+
+}
